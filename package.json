@@ -1,0 +1,24 @@
+{
+  "name": "kindle-dashboard",
+  "version": "0.1.0",
+  "description": "Dashboard app in Kindle browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server build/",
+    "build": "browserify src/app.js > build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/kindle-dashboard.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/kindle-dashboard/issues"
+  },
+  "homepage": "https://github.com/drom/kindle-dashboard#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
